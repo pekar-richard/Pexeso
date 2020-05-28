@@ -8,7 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.pexeso.pexeso.domain.Pexeso;
+import com.pexeso.pexeso.domain.Pexesoen;
+import com.pexeso.pexeso.domain.Pexesosk;
+import com.pexeso.pexeso.domain.Pexesosken;
 import com.pexeso.pexeso.services.ProjectService;
 
 @RestController
@@ -25,9 +27,20 @@ public class ProjectController {
 	this.projectService = TheprojectService;
 	}
 	
-	@GetMapping("/all")
-	public List<Pexeso> getAllWorts(){
-	return projectService.findAll();
+	@GetMapping("/all/sk")
+	public List<Pexesosk> getAllWortsSk(){
+	return projectService.findAllSk();
 		}
+	
+	@GetMapping("/all/en")
+	public List<Pexesoen> getAllWortsEn(){
+	return projectService.findAllEn();
+		}
+	
+	@GetMapping("/all/sken")
+	public List<Pexesosken> findAllSkorEn(){
+	return projectService.findAllSkorEn();
+		}
+
 
 }

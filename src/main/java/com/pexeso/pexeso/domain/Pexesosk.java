@@ -8,8 +8,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="pexeso")
-public class Pexeso {
+@Table(name="pexesosk")
+public class Pexesosk {
 	
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,10 +19,10 @@ public class Pexeso {
 	@Column(name="wortde")
 	private String wortde;	
 	
-	@Column(name="wortsk")
-	private String wortsk;
+	@Column(name="wort")
+	private String wort;
 	
-	public Pexeso() {
+	public Pexesosk() {
 			
 	}
 
@@ -42,17 +42,17 @@ public class Pexeso {
 		this.wortde = wortde;
 	}
 
-	public String getWortsk() {
-		return wortsk;
+	public String getWort() {
+		return wort;
 	}
 
-	public void setWortsk(String wortsk) {
-		this.wortsk = wortsk;
+	public void setWort(String wort) {
+		this.wort = wort;
 	}
 
 	@Override
 	public String toString() {
-		return "Pexeso [id=" + id + ", wortde=" + wortde + ", wortsk=" + wortsk + "]";
+		return "Pexeso [id=" + id + ", wortde=" + wortde + ", wort=" + wort + "]";
 	}
 
 	
