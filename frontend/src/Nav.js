@@ -24,7 +24,7 @@ export default function Nav({ WortClick2, Scroolbarfunc, WortClickDESKEN }) {
           <input
             type="range"
             className="custom-range"
-            min="0"
+            min="10"
             max="100"
             step="1"
             defaultValue="20"
