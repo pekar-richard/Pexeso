@@ -1,0 +1,40 @@
+@media only screen and (min-width: 1000px) {
+  .background_green .background_white {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.background_green {
+  background-color: #00ff7f;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(175, 170, 170);
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+.background_white {
+  background-color: #ff7b25;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(175, 170, 170);
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+.recipes {
+  box-shadow: 0px 5px 20px rgb(175, 170, 170);
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
