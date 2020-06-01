@@ -18,7 +18,7 @@ body {
 .titel {
   display: inline-block;
   text-align: center;
-  font-size: 500%;
+  font-size: 300%;
   margin: 0px;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .block {
-  margin: 186px 80px 100px 100px;
+  margin: 140px 80px 100px 100px;
 }
 
 a.button4 {

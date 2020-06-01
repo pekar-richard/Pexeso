@@ -24,14 +24,14 @@ export default function Nav({ WortClick2, Scroolbarfunc, WortClickDESKEN }) {
           <input
             type="range"
             className="custom-range"
-            min="10"
+            min="4"
             max="100"
             step="1"
             defaultValue="20"
             id="customRange2"
             onChange={Scroolbarfunc}
           />
-          <label for="customRange1">die Menge</label>
+          <label for="customRange1">Anzahl der Karten</label>
         </nav>
       </div>
     </div>
